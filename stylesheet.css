@@ -1,0 +1,31 @@
+/* You should edit the content below to fit your website */
+
+* {
+	font-family: Arial, Verdana, sans-serif;
+	color: #00000;
+	text-align: center;}
+body {
+	width: 960px;
+	margin: 20px auto;
+	background-color: #F0DDDD}
+#content {
+	overflow: auto;
+	height: 100%;}
+.column1, .column2, .column3 {
+	float: left;
+	margin: 10px;}
+dt, dd {
+    font-family: Palatino, serif;
+    font-size: 14px;}
+.two-column {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.column-left,
+.column-right {
+  flex: 1;
+  padding: 10px;
+  text-align: left;
+}
